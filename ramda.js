@@ -2056,7 +2056,7 @@
         // that don't.
         function all(fn, list) {
             var i = -1;
-            while (++i < list.length) {
+            while (++i <= list.length) {
                 if (!fn(list[i])) {
                     return false;
                 }
